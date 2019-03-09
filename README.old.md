@@ -1,2 +1,0 @@
-# IUI
-Incheon UI Library
