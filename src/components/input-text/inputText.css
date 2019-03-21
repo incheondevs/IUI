@@ -1,0 +1,38 @@
+div.iui-input-text {
+    position: relative;
+    padding: 8px 12px;
+    border: solid #ccc 1px;
+    border-radius: 4px;
+    margin: 4px 16px;
+    text-align: left;
+}
+div.iui-input-text.inline{ display: inline; }
+
+input.iui-input-text-input{
+    background: transparent;
+    font-size: 1.1em;
+    border: none;
+    width: 100%;
+}
+input.iui-input-text-input.inline{ width: auto; }
+input.iui-input-text-input:focus{
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+input.iui-input-text-input.text-lg{ font-size: 1.5em; }
+input.iui-input-text-input.text-sm{ font-size: 1em; }
+input.iui-input-text-input.text-xs{ font-size: .8em; }
+input.iui-input-text-input.with-icon{ width: calc(100% - 32px); }
+input.iui-input-text-input.with-icon.text-sm,
+input.iui-input-text-input.with-icon.text-xs { width: calc(100% - 24px); }
+
+span.iui-input-text-icon {
+    color: #999;
+    position: absolute;
+    right: 10px;
+    z-index: -1;
+}
+span.iui-input-text-icon.text-lg>i.material-icons{ font-size: 1.5em; }
+span.iui-input-text-icon.text-sm>i.material-icons{ font-size: 1em; }
+span.iui-input-text-icon.text-xs>i.material-icons{ font-size: 0.9em; }

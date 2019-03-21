@@ -1,3 +1,5 @@
+.text-left, .align-left{ text-align: left; }
+.text-right, .align-right{ text-align: right; }
 .App {
   text-align: center;
 }

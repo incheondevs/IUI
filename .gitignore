@@ -1,3 +1,6 @@
+# 기타 중복될거 같은 파일들...
+package-lock.json
+
 # Logs
 logs
 *.log
