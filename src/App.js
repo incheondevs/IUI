@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Typography></Typography>
+        <Typography level={4}>Hello World</Typography>
       </div>
     );
   }
