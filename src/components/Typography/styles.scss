@@ -1,27 +1,64 @@
-.iui__typography__wrapper {
-    font-weight: bold;
+$h1: 6rem;
+$h2: 5rem;
+$h3: 4rem;
+$h4: 3.5rem;
+$h5: 3rem;
+$h6: 2.4rem;
+$p: 1.2rem;
 
+@mixin font-size($level) {
     h1 {
-        font-size: 6rem;
+        font-size: $level * $h1;
     }
 
     h2 {
-        font-size: 5rem;
+        font-size: $level * $h2;
     }
 
     h3 {
-        font-size: 4rem;
+        font-size: $level * $h3;
     }
 
     h4 {
-        font-size: 3.5rem;
+        font-size: $level * $h4;
     }
 
     h5 {
-        font-size: 3rem;
+        font-size: $level * $h5;
     }
 
     h6 {
-        font-size: 2.4rem;
+        font-size: $level * $h6;
     }
+
+    p {
+        font-size: $level * $p;
+    }
+}
+
+
+.iui__typography__wrapper {
+    .iui__typography__bold {
+        font-weight: bold;
+    }
+
+    .iui__typography__inline {
+        display: inline;
+    }
+
+    .iui__typography__strike {
+        text-decoration: line-through;
+    }
+
+    &.iui__typography__scale1 {
+        @include font-size(1);
+    }
+
+    &.iui__typography__scale2 {
+        @include font-size(2);
+    }
+    
+    &.iui__typography__scale3 {
+        @include font-size(3);
+    }   
 }

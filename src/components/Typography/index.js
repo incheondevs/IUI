@@ -1,3 +1,3 @@
-import Typography from './typography.container.js';
+import Typography from './typography.js';
 
 export default Typography;
