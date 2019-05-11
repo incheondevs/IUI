@@ -8,7 +8,7 @@ const propTypes = {
     bold: PropTypes.bool, 
     strike: PropTypes.bool, 
     scaleLevel: PropTypes.number,
-    level: PropTypes.number,
+    headerLevel: PropTypes.number,
 }
 
 const  defaultProps = {
@@ -16,7 +16,7 @@ const  defaultProps = {
     bold: false,
     strike: false,
     scaleLevel: 1,
-    level: null,
+    headerLevel: null,
 }
 
 const styles = {
@@ -28,9 +28,9 @@ const styles = {
 }
 
 const Typography = (props) => {
-    const { inline, bold, strike, scaleLevel, level, ...otherAttribute } = props;
+    const { inline, bold, strike, scaleLevel, headerLevel, ...otherAttribute } = props;
     
-    const TagName = level !== null ? `h${level}` : 'p';
+    const TagName = headerLevel !== null ? `h${headerLevel}` : 'p';
     let styleCollection = '';
 
     if (inline)  styleCollection += `${styles.inline} `;

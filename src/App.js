@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Typography scaleLevel={3}>Hello World</Typography>
-        <Typography level={2}>Hello World</Typography>
+        <Typography headLevel={2}>Hello World</Typography>
         <Typography inline>Hello World</Typography>
         <Typography bold>Hello World</Typography>
         <Typography strike>Hello World</Typography>
