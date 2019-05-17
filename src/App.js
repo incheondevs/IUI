@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Typography from './components/Typography';
+import XEIconExample from './components/icons/xeicon.example.js';
 
 import './App.css';
 
@@ -7,11 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Typography scaleLevel={3}>Hello World</Typography>
-        <Typography headLevel={2}>Hello World</Typography>
-        <Typography inline>Hello World</Typography>
-        <Typography bold>Hello World</Typography>
-        <Typography strike>Hello World</Typography>
+        <XEIconExample />
       </div>
     );
   }
