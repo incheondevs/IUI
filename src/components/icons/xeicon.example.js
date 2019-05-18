@@ -1,5 +1,6 @@
 import React from 'react';
 import XI from './xeicon';
+import Material from './material';
 
 const Example = (props) => {
 
@@ -89,6 +90,10 @@ const Example = (props) => {
                     <XI name="file" size={3} fw />
                     <XI name="folder" size={3} fw />
                     <XI name="man" size={3} fw />
+                </li>
+                <li>
+                    <Material></Material>
+                    <i className="material-icons">face</i>
                 </li>
             </ol>
             

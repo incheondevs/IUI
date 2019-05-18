@@ -1,3 +1,3 @@
-import _Button from './button.container';
+import Button from './button';
 
-export let Button = _Button;
+export default Button;
